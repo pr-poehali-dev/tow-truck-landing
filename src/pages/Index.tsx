@@ -200,17 +200,10 @@ export default function Index() {
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <Icon name="Mail" size={24} className="text-primary" />
-                    <div>
-                      <p className="font-semibold">Email</p>
-                      <a href="mailto:info@evacuator.ru" className="text-primary hover:underline">info@evacuator.ru</a>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-3">
                     <Icon name="MapPin" size={24} className="text-primary" />
                     <div>
                       <p className="font-semibold">Адрес</p>
-                      <p className="text-muted-foreground">г. Краснодар</p>
+                      <p className="text-muted-foreground">Краснодар, ул. Морская</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
