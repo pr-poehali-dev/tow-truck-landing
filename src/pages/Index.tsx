@@ -32,8 +32,8 @@ export default function Index() {
             <a href="#reviews" className="text-foreground hover:text-primary transition-colors">Отзывы</a>
             <a href="#contacts" className="text-foreground hover:text-primary transition-colors">Контакты</a>
           </nav>
-          <a href="tel:+79991234567" className="text-xl font-semibold text-primary hover:text-primary/80 transition-colors">
-            +7 (999) 123-45-67
+          <a href="tel:+79890251414" className="text-xl font-semibold text-primary hover:text-primary/80 transition-colors">
+            +7 (989) 025-14-14
           </a>
         </div>
       </header>
@@ -196,7 +196,7 @@ export default function Index() {
                     <Icon name="Phone" size={24} className="text-primary" />
                     <div>
                       <p className="font-semibold">Телефон</p>
-                      <a href="tel:+79991234567" className="text-primary hover:underline">+7 (999) 123-45-67</a>
+                      <a href="tel:+79890251414" className="text-primary hover:underline">+7 (989) 025-14-14</a>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
