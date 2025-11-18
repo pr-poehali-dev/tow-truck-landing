@@ -23,7 +23,7 @@ export default function Index() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Icon name="Truck" size={32} className="text-primary" />
-            <span className="text-2xl font-bold text-secondary">Эвакуатор Краснодар</span>
+            <span className="text-2xl font-bold text-secondary">ЭВАКУАТОР 193</span>
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
@@ -268,9 +268,9 @@ export default function Index() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
               <Icon name="Truck" size={28} className="text-primary" />
-              <span className="text-xl font-bold">Эвакуатор Краснодар</span>
+              <span className="text-xl font-bold">ЭВАКУАТОР 193</span>
             </div>
-            <p className="text-sm">© 2024 Эвакуатор Краснодар. Все права защищены.</p>
+            <p className="text-sm">© 2024 ЭВАКУАТОР 193. Все права защищены.</p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-primary transition-colors">
                 <Icon name="Instagram" size={24} />
