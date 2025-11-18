@@ -21,17 +21,19 @@ export default function Index() {
     <div className="min-h-screen">
       <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <Icon name="Truck" size={32} className="text-primary" />
-            <span className="text-2xl font-bold text-secondary">ЭВАКУАТОР 193</span>
+          <div className="flex flex-col items-center gap-3 flex-1">
+            <div className="flex items-center gap-2">
+              <Icon name="Truck" size={32} className="text-primary" />
+              <span className="text-2xl font-bold text-secondary">ЭВАКУАТОР 193</span>
+            </div>
+            <nav className="flex gap-6">
+              <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
+              <a href="#prices" className="text-foreground hover:text-primary transition-colors">Цены</a>
+              <a href="#advantages" className="text-foreground hover:text-primary transition-colors">Преимущества</a>
+              <a href="#reviews" className="text-foreground hover:text-primary transition-colors">Отзывы</a>
+              <a href="#contacts" className="text-foreground hover:text-primary transition-colors">Контакты</a>
+            </nav>
           </div>
-          <nav className="hidden md:flex gap-8">
-            <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
-            <a href="#prices" className="text-foreground hover:text-primary transition-colors">Цены</a>
-            <a href="#advantages" className="text-foreground hover:text-primary transition-colors">Преимущества</a>
-            <a href="#reviews" className="text-foreground hover:text-primary transition-colors">Отзывы</a>
-            <a href="#contacts" className="text-foreground hover:text-primary transition-colors">Контакты</a>
-          </nav>
           <a href="tel:+79890251414" className="text-xl font-semibold text-primary hover:text-primary/80 transition-colors">
             +7 (989) 025-14-14
           </a>
